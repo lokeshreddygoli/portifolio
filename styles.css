@@ -113,3 +113,7 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+.highlight {
+    font-weight: bold;
+    color: #f0f4f0;
+}
