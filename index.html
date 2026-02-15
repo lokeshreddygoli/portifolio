@@ -1,82 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lokesh Reddy | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Lokesh Reddy.Goli</h1>
-            <p>Developer | Designer | Innovator</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hi! I'm a passionate developer with experience in web apps, data science, and building cool stuff like Roomie Sync. I love creating user-friendly experiences with modern tech stacks.</p>
-        </div>
-    </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project">
-                    <h3>Roomie Sync</h3>
-                    <p>A hackathon project for syncing roommate tasks and schedules. Built with React, hosted on Vercel, backend on Firebase.</p>
-                    <a href="https://example.com/roomie-sync" target="_blank">View Project</a>
-                </div>
-                <div class="project">
-                    <h3>Project 2</h3>
-                    <p>Description of another project will be added soon.</p>
-                    <a href="https://example.com/project2" target="_blank">View Project</a>
-                </div>
-                <!-- Add more projects as needed -->
-            </div>
-        </div>
-    </section>
+<header>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-            <li><span class="highlight">Languages:</span> Java, JavaScript, C, C++</li>
-            <li><span class="highlight">Frontend:</span> HTML, CSS, Tailwind, React.js</li>
-            <li><span class="highlight">Backend:</span> Node.js, Express.js, Spring Boot</li>
-            <li><span class="highlight">Databases:</span> MySQL, MongoDB</li>
-            <li>Data Structures / Database Management</li>
-            <li>Problem-Solving</li>
-            </ul>
-        </div>
-    </section>
+<div class="logo">
+Lokesh<span>.</span>
+</div>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: lokeshreddygoli2005@gmail.com</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/lokesh-reddy-997580291" target="_blank">www.linkedin.com/in/lokesh-reddy-997580291</a></p>
-            <p>GitHub: <a href="https://github.com/lokeshreddygoli12" target="_blank">github.com/lokeshreddygoli12</a></p>
-        </div>
-    </section>
+<nav>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Lokesh reddy. All rights reserved.</p>
-        </div>
-    </footer>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
 
-    <script src="script.js"></script>
+</nav>
+
+<a href="resume.pdf" target="_blank" class="resume-btn">
+View Resume
+</a>
+
+</header>
+
+
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<p class="intro">Hello, my name is</p>
+
+<h1>
+G. Lokesh <span>Reddy</span>
+</h1>
+
+<h3 class="role">
+Full Stack Developer | Cloud | AI Enthusiast
+</h3>
+
+<p class="desc">
+I build scalable backend systems, intelligent dashboards, and modern web applications using Java, Spring Boot, React, and AWS.
+</p>
+
+<div class="hero-buttons">
+
+<button onclick="openModal()" class="hire-btn">
+Hire Me
+</button>
+
+<a href="resume.pdf" target="_blank" class="download-btn">
+Download Resume
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="about" class="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="glass-card">
+
+<p>
+
+Computer Science student at VIT-AP specializing in scalable backend systems, cloud infrastructure, and intelligent applications.
+
+I develop modern, efficient, and production-ready applications using industry best practices.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="skills" class="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="grid">
+
+<div class="card">Java</div>
+<div class="card">Spring Boot</div>
+<div class="card">React</div>
+<div class="card">AWS</div>
+<div class="card">MySQL</div>
+<div class="card">MongoDB</div>
+<div class="card">Docker</div>
+<div class="card">Python</div>
+<div class="card">System Design</div>
+
+</div>
+
+</section>
+
+
+
+<section id="projects" class="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="glass-card project">
+
+<h3>Fraud Detection Dashboard</h3>
+
+<p>
+
+Real-time fraud detection system using Java, Spring Boot, ML classifier, and WebSocket monitoring.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="glass-card contact-card">
+
+<p>
+📧 Email:
+<a href="mailto:lokeshreddygoli2005@gmail.com">
+lokeshreddygoli2005@gmail.com
+</a>
+</p>
+
+<p>
+📱 Phone:
+<a href="tel:+919640917131">
++91-9640917131
+</a>
+</p>
+
+<p>
+💻 GitHub:
+<a href="https://github.com/lokeshreddygoli" target="_blank">
+github.com/lokeshreddygoli
+</a>
+</p>
+
+<p>
+🔗 LinkedIn:
+<a href="https://linkedin.com/in/lokesh-reddy-997580291" target="_blank">
+linkedin.com/in/lokesh-reddy
+</a>
+</p>
+
+<br>
+
+<h3>Send Message</h3>
+
+<form onsubmit="sendMail(event)">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="email" id="email" placeholder="Your Email" required>
+
+<textarea id="message" placeholder="Your Message" required></textarea>
+
+<button type="submit" class="hire-btn">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+© 2026 Lokesh Reddy
+
+</footer>
+
+
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal()">×</span>
+
+<h2>Contact Details</h2>
+
+<p>Email: lokeshreddygoli2005@gmail.com</p>
+
+<p>Phone: +91-9640917131</p>
+
+<p>
+GitHub:
+<a href="https://github.com/lokeshreddygoli" target="_blank">
+Open
+</a>
+</p>
+
+<p>
+LinkedIn:
+<a href="https://linkedin.com/in/lokesh-reddy-997580291" target="_blank">
+Open
+</a>
+</p>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
